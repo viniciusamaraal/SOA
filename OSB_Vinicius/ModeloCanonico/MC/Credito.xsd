@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://pucminas.br/MC/SOA/Vinicius" 
+	xmlns:tns="http://pucminas.br/MC/SOA/Vinicius" 
+	xmlns:pes="http://pucminas.br/MC/SOA/Vinicius"
+	elementFormDefault="qualified">
+	
+	<include schemaLocation="Pessoa.xsd" />
+	
+	<complexType name="Credito">
+		<sequence>
+			<element name="pessoa" type="pes:Pessoa"></element>
+			<element name="indicaCreditoExterno" type="boolean"></element>
+			<element name="indicaCreditoInterno" type="boolean"></element>
+			<element name="indicaSituacao" type="boolean"></element>
+			<element name="situacao" type="integer"></element>
+		</sequence>
+	</complexType>
+</schema>

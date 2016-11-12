@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:schemaEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:schema><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://pucminas.br/MC/SOA/Vinicius" 
+	xmlns:tns="http://pucminas.br/MC/SOA/Vinicius" 
+	elementFormDefault="qualified">
+	
+	<element name="pucminasFault" type="tns:PucminasFault" />
+	
+	<complexType name="PucminasFault">
+		<sequence>
+			<element name="codigo" type="integer"></element>
+			<element name="descricao" type="string"></element>
+			<element name="detalhe" type="string"></element>
+		</sequence>
+	</complexType>
+</schema>]]></con:schema>
+    <con:targetNamespace>http://pucminas.br/MC/SOA/Vinicius</con:targetNamespace>
+</con:schemaEntry>

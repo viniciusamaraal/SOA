@@ -1,0 +1,1022 @@
+!SESSION 2016-10-25 19:10:37.265 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-10-25 19:11:35.607
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-25 19:11:35.607
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(oracle.eclipse.tools.common.services.ui.refactor.rename.command,Rename,
+		Rename the selected text.,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		oracle.eclipse.tools.common.services.ui.refactor.internal.ArtifactRefactoringCommandHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-25 19:11:35.607
+!MESSAGE A conflict occurred for CTRL+DEL:
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeInstance,Remove Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.python.pydev.core 4 4 2016-10-25 19:11:39.011
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+!SESSION 2016-10-25 19:16:15.846 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-10-25 19:17:11.332
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-25 19:17:11.332
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(oracle.eclipse.tools.common.services.ui.refactor.rename.command,Rename,
+		Rename the selected text.,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		oracle.eclipse.tools.common.services.ui.refactor.internal.ArtifactRefactoringCommandHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-25 19:17:11.332
+!MESSAGE A conflict occurred for CTRL+DEL:
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeInstance,Remove Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.python.pydev.core 4 4 2016-10-25 19:17:15.283
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+!SESSION 2016-11-02 11:26:28.424 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-11-02 11:26:54.357
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-02 11:26:54.357
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(oracle.eclipse.tools.common.services.ui.refactor.rename.command,Rename,
+		Rename the selected text.,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		oracle.eclipse.tools.common.services.ui.refactor.internal.ArtifactRefactoringCommandHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-02 11:26:54.357
+!MESSAGE A conflict occurred for CTRL+DEL:
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeInstance,Remove Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.python.pydev.core 4 4 2016-11-02 11:26:58.553
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY org.python.pydev.core 4 4 2016-11-03 23:32:10.081
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:33:44.755
+!MESSAGE Launching WebLogic config wizard with command:[xterm, -e, sh, /home/puc/Oracle/Middleware/oracle_common/common/bin/config.sh]
+in directory /home/puc/Oracle/Middleware/wlserver_10.3/common/bin
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:36:01.777
+!MESSAGE Started WebLogic Server Monitor [base_domain@localhost:7001, Version:10.3.6.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:38:49.512
+!MESSAGE Server watcher[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:39:05.556
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:39:05.557
+!MESSAGE Elapsed time 7678ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:39:05.558
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@219386417
+
+!ENTRY com.bea.alsb.debug.core 1 0 2016-11-03 23:39:08.511
+!MESSAGE canSupport() invoked!
+
+!ENTRY com.bea.alsb.debug.core 1 0 2016-11-03 23:39:08.512
+!MESSAGE Found ALSB server!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:39:08.909
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:39:08.919
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:44:29.595
+!MESSAGE Releasing deployment manager :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@219386417
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-03 23:50:50.621
+!MESSAGE Stopped WebLogic Server Monitor [base_domain@localhost:7001, Version:10.3.6.0]
+!SESSION 2016-11-09 21:41:20.110 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-11-09 21:42:05.134
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-09 21:42:05.134
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(oracle.eclipse.tools.common.services.ui.refactor.rename.command,Rename,
+		Rename the selected text.,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		oracle.eclipse.tools.common.services.ui.refactor.internal.ArtifactRefactoringCommandHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-09 21:42:05.134
+!MESSAGE A conflict occurred for CTRL+DEL:
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeInstance,Remove Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-09 21:42:07.959
+!MESSAGE Started WebLogic Server Monitor [base_domain@127.0.0.1:7001, Version:10.3.6.0]
+
+!ENTRY org.python.pydev.core 4 4 2016-11-09 21:42:10.742
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+!SESSION 2016-11-09 21:56:24.465 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2016-11-09 21:56:55.985
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-09 21:56:55.985
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(oracle.eclipse.tools.common.services.ui.refactor.rename.command,Rename,
+		Rename the selected text.,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		oracle.eclipse.tools.common.services.ui.refactor.internal.ArtifactRefactoringCommandHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-09 21:56:55.985
+!MESSAGE A conflict occurred for CTRL+DEL:
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeInstance,Remove Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-09 21:56:58.445
+!MESSAGE Started WebLogic Server Monitor [base_domain@127.0.0.1:7001, Version:10.3.6.0]
+
+!ENTRY org.python.pydev.core 4 4 2016-11-09 21:57:00.737
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2016-11-10 19:28:48.119
+!MESSAGE The server cannot be launched within timeout.
+
+!ENTRY com.bea.alsb.debug.core 1 0 2016-11-10 19:29:13.433
+!MESSAGE canSupport() invoked!
+
+!ENTRY com.bea.alsb.debug.core 1 0 2016-11-10 19:29:13.433
+!MESSAGE Found ALSB server!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2016-11-10 19:29:13.918
+!MESSAGE Server Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain] was unable to start within 480 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:31:34.138
+!MESSAGE Server watcher[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:31:59.970
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:31:59.970
+!MESSAGE Elapsed time 7472ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:31:59.970
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@1668958940
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:32:01.691
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 19:32:02.903
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:49.894
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:49.972
+!MESSAGE Found new module:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:50.126
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:50.127
+!MESSAGE Found new module:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:50.129
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:50.130
+!MESSAGE Releasing deployment manager :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@1668958940
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:52.180
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:52.180
+!MESSAGE Elapsed time 1071ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:52.181
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@941906939
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:27:57.298
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:27:59.749
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:27:59.751
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:27:59.751
+!MESSAGE Publishing new ALSB configuration: OSB Configuration
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:28:07.139
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:28:19.003
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:28:19.003
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:28:19.004
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:28:28.166
+!MESSAGE Releasing deployment manager :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@941906939
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2016-11-10 20:37:21.925
+!MESSAGE The server cannot be launched within timeout.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2016-11-10 20:37:22.324
+!MESSAGE Server Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain] was unable to start within 480 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:39:37.862
+!MESSAGE Server watcher[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:39:58.746
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:39:58.747
+!MESSAGE Elapsed time 16690ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:39:58.747
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 11gR1 (10.3.6) at localhost [base_domain]]@677496472
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.060
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.093
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.094
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.095
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.095
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:48.095
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.106
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.107
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.377
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.377
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.429
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.429
+!MESSAGE Will publish: CreditLegacyProxyService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.429
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:48.686
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:53.215
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:45:53.216
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:53.216
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:53.217
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:45:53.217
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.344
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.348
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.348
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.354
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.354
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:57.354
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.369
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.371
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.831
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.831
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.867
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.867
+!MESSAGE Will publish: InternalWhiteListProxyService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.867
+!MESSAGE Will publish: SerasaProxyService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.867
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:57.994
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:59.085
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-10 20:51:59.089
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:59.089
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:59.090
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-10 20:51:59.090
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-10 21:56:53.932
+!MESSAGE NLS unused message: primitives in: com.bea.wli.ide.typesystem.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-10 21:56:53.932
+!MESSAGE NLS unused message: classes in: com.bea.wli.ide.typesystem.ui.messages
+
+!ENTRY org.python.pydev.core 4 4 2016-11-10 21:56:58.414
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY org.python.pydev.core 4 4 2016-11-11 21:58:10.437
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.249
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.310
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.310
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.311
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.311
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:42.312
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.364
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.365
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.700
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.701
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.731
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.732
+!MESSAGE Will publish: VerificaCreditoInternoToCreditLegacy.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.732
+!MESSAGE Will publish: ParametrosCreditoExterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.732
+!MESSAGE Will publish: VerificaCreditoInternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.732
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:42.913
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:45.499
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:26:45.501
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:45.501
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:45.501
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:26:45.501
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-11 22:33:23.171
+!MESSAGE NLS missing message: TableTypeColumnName in: com.bea.alsb.ui.common.editor.FileSynchronizerMessages
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.669
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.671
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.671
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.672
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.672
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:28.672
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.684
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.685
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.914
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.914
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.931
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.931
+!MESSAGE Will publish: VerificaCreditoInternoParametrosToCreditLegacyParametros.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.931
+!MESSAGE Will publish: VerificaCreditoInternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.931
+!MESSAGE Will publish: CreditLegacyRespostaToVerificaCreditoInternoResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:28.931
+!MESSAGE Will publish (remove): VerificaCreditoInternoToCreditLegacy.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:29.020
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:29.885
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-11 22:45:29.885
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:29.886
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:29.886
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:29.886
+!MESSAGE Publishing finished.
