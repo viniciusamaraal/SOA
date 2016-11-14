@@ -1020,3 +1020,452 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 
 
 !ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-11 22:45:29.886
 !MESSAGE Publishing finished.
+
+!ENTRY org.python.pydev.core 4 4 2016-11-14 19:49:40.035
+!MESSAGE sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1904)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:279)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:273)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1446)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:901)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:837)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1023)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1332)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1359)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1343)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1092)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:249)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1428)
+	... 17 more
+Caused by: java.security.cert.CertPathValidatorException: timestamp check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:159)
+	at sun.security.provider.certpath.PKIXCertPathValidator.doValidate(PKIXCertPathValidator.java:347)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:191)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:279)
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
+	... 23 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 18:29:33 BRT 2013
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:273)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:575)
+	at sun.security.provider.certpath.BasicChecker.verifyTimestamp(BasicChecker.java:184)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:136)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:133)
+	... 27 more
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:23.944
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:24.106
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:24.107
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:24.109
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:24.113
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:24.114
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.146
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.151
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.505
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.506
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE Will publish: ParametrosVerificaCreditoInterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE Will publish: ResultadoVerificaWhiteList.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE Will publish: ResultadoVerificaCreditoExterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE Will publish: ResultadoVerificaCreditoInterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.524
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.525
+!MESSAGE Will publish: ParametroVerificaCreditoExterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.525
+!MESSAGE Will publish: ParametrosVerificaWhiteList.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.525
+!MESSAGE Will publish: VerificaCreditoExternoToSerasa.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.525
+!MESSAGE Will publish (remove): ParametrosCreditoExterno.xml
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:24.694
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:26.092
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:29:26.092
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:26.093
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:26.093
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:29:26.093
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.912
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.927
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.927
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.928
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.928
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:13.928
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:13.939
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:13.939
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.278
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.278
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.300
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.300
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.300
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:14.402
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:15.182
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:32:15.183
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:15.183
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:15.183
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:32:15.183
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.509
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.511
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.511
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.512
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.512
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:24.512
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.524
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.524
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.779
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.779
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.794
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.795
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.795
+!MESSAGE Will publish: VerificaCreditoExternoParametroToSerasaResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.795
+!MESSAGE Will publish (remove): VerificaCreditoExternoToSerasa.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:24.889
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:25.444
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:36:25.445
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:25.445
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:25.445
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:36:25.445
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.647
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.649
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.649
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.650
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.650
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:12.651
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.663
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.663
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.960
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.960
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.992
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.992
+!MESSAGE Will publish: VerificaCreditoInternoParametroToCreditLegacyParametro.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.993
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.993
+!MESSAGE Will publish: VerificaCreditoExternoParametroToSerasaParametro.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.993
+!MESSAGE Will publish: VerificaCreditoInternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.993
+!MESSAGE Will publish (remove): VerificaCreditoInternoParametrosToCreditLegacyParametros.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:12.993
+!MESSAGE Will publish (remove): VerificaCreditoExternoParametroToSerasaResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:13.129
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:13.877
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:38:13.878
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:13.878
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:13.878
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:38:13.878
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.257
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.260
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.260
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.261
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.261
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:30.261
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.272
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.273
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.569
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.569
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.601
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.601
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.601
+!MESSAGE Will publish: SerasaRespostaToVerificaCreditoExternoResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.601
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:30.709
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:31.250
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:47:31.252
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:31.252
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:31.253
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:47:31.253
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.696
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.701
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.701
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.702
+!MESSAGE Module not changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.702
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:48:06.702
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.310
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.313
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.314
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.315
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.316
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:00.316
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.329
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.329
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.861
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.861
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.883
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.883
+!MESSAGE Will publish: VerificaCreditoExternoService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:00.883
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:01.004
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:01.464
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-11-14 20:53:01.470
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:01.470
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:01.471
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-11-14 20:53:01.471
+!MESSAGE Publishing finished.

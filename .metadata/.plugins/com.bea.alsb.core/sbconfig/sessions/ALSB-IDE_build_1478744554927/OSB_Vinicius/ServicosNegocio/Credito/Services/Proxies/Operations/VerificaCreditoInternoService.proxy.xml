@@ -79,7 +79,7 @@
                         </con1:location>
                         <con1:expr>
                           <con2:xqueryTransform>
-                            <con2:resource ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/VerificaCreditoInternoParametrosToCreditLegacyParametros"/>
+                            <con2:resource ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/VerificaCreditoInternoParametroToCreditLegacyParametro"/>
                             <con2:param name="parametrosVerificaCreditoInterno1">
                               <con2:path>$body/cred:parametrosVerificaCreditoInterno</con2:path>
                             </con2:param>
