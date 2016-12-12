@@ -11,10 +11,9 @@
 	<complexType name="Credito">
 		<sequence>
 			<element name="pessoa" type="pes:Pessoa"></element>
-			<element name="indicaCreditoExterno" type="boolean"></element>
-			<element name="indicaCreditoInterno" type="boolean"></element>
-			<element name="indicaSituacao" type="boolean"></element>
-			<element name="situacao" type="integer"></element>
+			<element name="indicaWhiteList" type="boolean"></element>
+			<element name="quantidadeRestricoes" type="integer"></element>
+			<element name="valorRestricao" type="decimal"></element>
 		</sequence>
 	</complexType>
 </schema>

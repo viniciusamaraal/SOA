@@ -47,35 +47,7 @@
       </con:stage>
     </con:pipeline>
     <con:pipeline type="response" name="PipelinePairOperacaoInexistente_response"/>
-    <con:pipeline type="request" name="PipelinePairNode1_request">
-      <con:stage name="stage1">
-        <con:context/>
-        <con:actions>
-          <con1:wsCallout>
-            <con2:id>_ActionId-3104466917406858288--8a56954.15898abd001.-7f46</con2:id>
-            <con1:service xsi:type="ref:ProxyRef" ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
-            <con1:operation>verificaCreditoInterno</con1:operation>
-            <con1:request/>
-            <con1:response/>
-            <con1:requestTransform/>
-            <con1:responseTransform/>
-          </con1:wsCallout>
-        </con:actions>
-      </con:stage>
-      <con:stage name="stage2">
-        <con:context/>
-        <con:actions>
-          <con1:wsCallout>
-            <con2:id>_ActionId-3104466917406858288--8a56954.15898abd001.-7f29</con2:id>
-            <con1:service/>
-            <con1:request/>
-            <con1:response/>
-            <con1:requestTransform/>
-            <con1:responseTransform/>
-          </con1:wsCallout>
-        </con:actions>
-      </con:stage>
-    </con:pipeline>
+    <con:pipeline type="request" name="PipelinePairNode1_request"></con:pipeline>
     <con:pipeline type="response" name="PipelinePairNode1_response"/>
     <con:flow>
       <con:branch-node type="operation" name="BranchNode1">
@@ -94,7 +66,7 @@
                 <con:actions>
                   <con3:route>
                     <con2:id>_ActionId-3104466917406858288--8a56954.15898abd001.-7ed9</con2:id>
-                    <con3:service/>
+                    <con3:service ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
                     <con3:outboundTransform/>
                     <con3:responseTransform/>
                   </con3:route>

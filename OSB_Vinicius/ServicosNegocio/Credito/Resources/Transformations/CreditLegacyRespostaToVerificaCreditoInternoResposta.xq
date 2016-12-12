@@ -11,8 +11,10 @@ declare function xf:CreditLegacyRespostaToVerificaCreditoInternoResposta($result
         <ns2:resultadoVerificaCreditoInterno>
             <ns2:credito>
                 <ns0:pessoa>
-                    <ns0:cnpj>{ data($resultadoCreditLegacy/ns1:cpf) }</ns0:cnpj>
+                    <ns0:cpf>{ data($resultadoCreditLegacy/ns1:cpf) }</ns0:cpf>
                 </ns0:pessoa>
+                <ns0:quantidadeRestricoes>{ fn:count($resultadoCreditLegacy//*:restricao) }</ns0:quantidadeRestricoes>
+                <ns0:valorRestricao>{ fn:sum($resultadoCreditLegacy//*:valor) }</ns0:valorRestricao>
             </ns2:credito>
         </ns2:resultadoVerificaCreditoInterno>
 };

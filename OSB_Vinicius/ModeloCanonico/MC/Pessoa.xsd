@@ -10,8 +10,9 @@
 			<element name="id" type="integer"></element>
 			<element name="nome" type="string"></element>
 			<element name="dataNascimento" type="date"></element>
-			<element name="cnpj" type="string"></element>
+			<element name="cpf" type="string"></element>
 			<element name="telefone" type="string"></element>
+			<element name="celular" type="string"></element>
 		</sequence>
 	</complexType>
 	
