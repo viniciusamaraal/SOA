@@ -11605,3 +11605,783 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Sep 25 
 
 !ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 22:43:07.453
 !MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.osgi 2 1 2016-12-12 22:45:44.307
+!MESSAGE NLS unused message: ConditionBuilderComposite_0 in: com.bea.alsb.ui.common.expression.condition.ExpressionConditionMessages
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.887
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.891
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.891
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.892
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.892
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:51.893
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:51.896
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:51.896
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.348
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.348
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.361
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.362
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.362
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.437
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.942
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:02:52.943
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:52.943
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:52.943
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:02:52.943
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.384
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.387
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.388
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.388
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.389
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:09.389
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.392
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.392
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.817
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.817
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.831
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.831
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.831
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:09.917
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:10.236
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:07:10.237
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:10.237
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:10.238
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:07:10.238
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.577
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.580
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.581
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.582
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.582
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:12.583
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:12.585
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:12.585
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.044
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.044
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.060
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.060
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.061
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.134
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.444
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:08:13.445
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:13.445
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:13.445
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:08:13.445
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.849
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.852
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.852
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.853
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.853
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:26.854
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:26.857
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:26.857
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.318
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.319
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.331
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.331
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.331
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.407
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.683
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:09:27.683
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:27.684
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:27.685
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:09:27.685
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.677
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.679
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.680
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.680
+!MESSAGE Module not changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.681
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:30.681
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.076
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.078
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.079
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.080
+!MESSAGE Module not changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.080
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:14:37.080
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.392
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.397
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.397
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.398
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.398
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:47.399
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.402
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.403
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.834
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.834
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.848
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.848
+!MESSAGE Will publish: SerasaRespostaToVerificaCreditoExternoResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.848
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:47.914
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:48.246
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:16:48.246
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:48.246
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:48.247
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:16:48.247
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.846
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.849
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.850
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.851
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.852
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:48.852
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:48.854
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:48.855
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.300
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.300
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.313
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.313
+!MESSAGE Will publish: SerasaRespostaToVerificaCreditoExternoResposta.xq
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.313
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.377
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.706
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:17:49.706
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:49.706
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:49.707
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:17:49.707
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.247
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.249
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.250
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.251
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.252
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:34.252
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.255
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.255
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.680
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.680
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.694
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.694
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.694
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:34.779
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:35.052
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:20:35.052
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:35.053
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:35.053
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:20:35.053
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.741
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.744
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.744
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.745
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.745
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:54.746
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:54.748
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:54.748
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.168
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.168
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.183
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.184
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.184
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.259
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.563
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:21:55.564
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:55.565
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:55.565
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:21:55.566
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.231
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.234
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.234
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.235
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.235
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.236
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.238
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.238
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.647
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.647
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.660
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.660
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.661
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.730
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.993
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:23:19.994
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.994
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.994
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:23:19.994
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.914
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.917
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.918
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.919
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.919
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:31.919
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:31.922
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:31.922
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.358
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.358
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.373
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.373
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.373
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.438
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.741
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:27:32.741
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:32.742
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:32.742
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:27:32.742
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.727
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.729
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.730
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.733
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.733
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:22.733
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:22.739
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:22.740
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.134
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.134
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.150
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.151
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.151
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.227
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.506
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:30:23.506
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:23.506
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:23.507
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:30:23.507
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.082
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.086
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.086
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.087
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.087
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.088
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.090
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.090
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.491
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.491
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.511
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.511
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.511
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.584
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.848
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-12 23:31:12.849
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.850
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.850
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-12 23:31:12.850
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.616
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.618
+!MESSAGE Module not changed:[OSB Configuration]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.619
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.620
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.620
+!MESSAGE Found deployable module: com.bea.alsb.core.internal.deployables:OSB Configuration : bea.alsb.container.module
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:36.621
+!MESSAGE Total deleted modules: 0
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:36.625
+!MESSAGE Starting ALSB publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:36.625
+!MESSAGE Added 2 modules out of 2
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.050
+!MESSAGE ALSB Publish Summary: Deleted Projects
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.050
+!MESSAGE No deleted projects to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.063
+!MESSAGE ALSB Publish Summary: Added/Removed/Changed
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.063
+!MESSAGE Will publish: CreditoGeralService.proxy
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.064
+!MESSAGE No removed resources to publish.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.132
+!MESSAGE Beginning import to ALSB server.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.451
+!MESSAGE Import to ALSB server completed.
+
+!ENTRY com.bea.alsb.server.publish 1 0 2016-12-13 00:04:37.452
+!MESSAGE ALSB publish finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:37.452
+!MESSAGE Module changed:[OSB Configuration,OSB_Vinicius]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:37.452
+!MESSAGE No Weblogic J2EE module to publish
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2016-12-13 00:04:37.452
+!MESSAGE Publishing finished.
