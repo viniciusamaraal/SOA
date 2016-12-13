@@ -11,7 +11,6 @@
 	<complexType name="Credito">
 		<sequence>
 			<element name="pessoa" type="pes:Pessoa"></element>
-			<element name="indicaWhiteList" type="boolean"></element>
 			<element name="quantidadeRestricoes" type="integer"></element>
 			<element name="valorRestricao" type="decimal"></element>
 		</sequence>

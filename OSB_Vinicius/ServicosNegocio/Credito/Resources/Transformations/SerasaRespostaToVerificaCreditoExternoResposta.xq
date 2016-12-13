@@ -11,8 +11,9 @@ declare function xf:SerasaRespostaToVerificaCreditoExternoResposta($resultadoSer
         <ns2:resultadoVerificaCreditoExterno>
             <ns2:credito>
                 <ns0:pessoa>
-                    <ns0:cnpj>{ data($resultadoSerasa/ns1:num_documento) }</ns0:cnpj>
+                    <ns0:cpf>{ data($resultadoSerasa/ns1:num_documento) }</ns0:cpf>
                 </ns0:pessoa>
+                <ns0:valorRestricao>{ data($resultadoSerasa/ns1:valor_restricao) }</ns0:valorRestricao>
             </ns2:credito>
         </ns2:resultadoVerificaCreditoExterno>
 };

@@ -1,0 +1,17 @@
+xquery version "1.0" encoding "UTF-8";
+(:: pragma bea:global-element-parameter parameter="$resultadoVerificaWhiteList" element="ns2:resultadoVerificaWhiteList" location="../../../../ESB/Credito/xsd/ParametrosCredito.xsd" ::)
+(:: pragma bea:global-element-return element="ns1:resultadoConsultaScore" location="../../../../ESB/Credito/xsd/ParametrosCreditoGeral.xsd" ::)
+
+declare namespace xf = "http://tempuri.org/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta/";
+declare namespace ns2 = "http://pucminas.br/SN/Credito";
+declare namespace ns1 = "http://pucminas.br/SN/CreditoGeral";
+declare namespace ns0 = "http://pucminas.br/MC/SOA/Vinicius";
+
+declare function xf:MontaCreditoGeralResposta($resultadoVerificaWhiteList as element(ns2:resultadoVerificaWhiteList))
+    as element(ns1:resultadoConsultaScore) {
+        <ns1:resultadoConsultaScore/>
+};
+
+declare variable $resultadoVerificaWhiteList as element(ns2:resultadoVerificaWhiteList) external;
+
+xf:MontaCreditoGeralResposta($resultadoVerificaWhiteList)
