@@ -3,7 +3,7 @@
   <ser:coreEntry isProxy="false" isEnabled="true">
     <ser:binding type="Mixed" xsi:type="con:MixedBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
       <con:request type="XML">
-        <con1:schema ref="OSB_Vinicius/ESB/Pessoa/xsd/ParametrosPessoa" element="parametrosDesativaPessoa" xmlns:con1="http://www.bea.com/wli/sb/typesystem/config"/>
+        <con1:schema ref="OSB_Amaral/ESB/Pessoa/xsd/ParametrosPessoa" element="parametrosDesativaPessoa" xmlns:con1="http://www.bea.com/wli/sb/typesystem/config"/>
       </con:request>
     </ser:binding>
     <ser:monitoring isEnabled="false">

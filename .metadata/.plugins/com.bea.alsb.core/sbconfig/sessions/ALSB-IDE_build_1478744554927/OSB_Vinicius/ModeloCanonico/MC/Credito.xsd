@@ -3,9 +3,9 @@
     <con:schema><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <schema 
 	xmlns="http://www.w3.org/2001/XMLSchema" 
-	targetNamespace="http://pucminas.br/MC/SOA/Vinicius" 
-	xmlns:tns="http://pucminas.br/MC/SOA/Vinicius" 
-	xmlns:pes="http://pucminas.br/MC/SOA/Vinicius"
+	targetNamespace="http://pucminas.br/MC/SOA/Amaral" 
+	xmlns:tns="http://pucminas.br/MC/SOA/Amaral" 
+	xmlns:pes="http://pucminas.br/MC/SOA/Amaral"
 	elementFormDefault="qualified">
 	
 	<include schemaLocation="Pessoa.xsd" />
@@ -21,7 +21,7 @@
 	</complexType>
 </schema>]]></con:schema>
     <con:dependencies>
-        <con:include schemaLocation="Pessoa.xsd" ref="OSB_Vinicius/ModeloCanonico/MC/Pessoa"/>
+        <con:include schemaLocation="Pessoa.xsd" ref="OSB_Amaral/ModeloCanonico/MC/Pessoa"/>
     </con:dependencies>
-    <con:targetNamespace>http://pucminas.br/MC/SOA/Vinicius</con:targetNamespace>
+    <con:targetNamespace>http://pucminas.br/MC/SOA/Amaral</con:targetNamespace>
 </con:schemaEntry>

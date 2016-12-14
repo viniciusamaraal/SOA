@@ -49,7 +49,7 @@
 
 </wsdl:definitions>]]></con:wsdl>
     <con:dependencies>
-        <con:schemaRef isInclude="false" schemaLocation="../Schemas/CreditLegacy.xsd" namespace="http://creditlegacy.com.br/SN/CreditLegacy" ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Schemas/CreditLegacy"/>
+        <con:schemaRef isInclude="false" schemaLocation="../Schemas/CreditLegacy.xsd" namespace="http://creditlegacy.com.br/SN/CreditLegacy" ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Schemas/CreditLegacy"/>
     </con:dependencies>
     <con:targetNamespace>http://cursosoa.org/CreditLegacyService/</con:targetNamespace>
 </con:wsdlEntry>

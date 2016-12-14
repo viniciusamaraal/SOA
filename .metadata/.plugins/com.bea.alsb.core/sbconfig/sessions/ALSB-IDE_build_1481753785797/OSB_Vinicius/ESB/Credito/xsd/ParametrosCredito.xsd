@@ -4,12 +4,12 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
 	targetNamespace="http://pucminas.br/SN/Credito" 
 	xmlns:tns="http://pucminas.br/SN/Credito" 
-	xmlns:cab="http://pucminas.br/MC/SOA/Vinicius"
+	xmlns:cab="http://pucminas.br/MC/SOA/Amaral"
 	elementFormDefault="qualified">
 
-	<import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" />
-	<import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Credito.xsd" />
-	<import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/MensagemRetorno.xsd" />
+	<import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" />
+	<import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Credito.xsd" />
+	<import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/MensagemRetorno.xsd" />
 
 	<element name="parametrosVerificaCreditoExterno">
 		<complexType>
@@ -59,9 +59,9 @@
 	</element>
 </schema>]]></con:schema>
     <con:dependencies>
-        <con:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" ref="OSB_Vinicius/ModeloCanonico/MC/Pessoa"/>
-        <con:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Credito.xsd" ref="OSB_Vinicius/ModeloCanonico/MC/Credito"/>
-        <con:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/MensagemRetorno.xsd" ref="OSB_Vinicius/ModeloCanonico/MC/MensagemRetorno"/>
+        <con:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" ref="OSB_Amaral/ModeloCanonico/MC/Pessoa"/>
+        <con:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Credito.xsd" ref="OSB_Amaral/ModeloCanonico/MC/Credito"/>
+        <con:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/MensagemRetorno.xsd" ref="OSB_Amaral/ModeloCanonico/MC/MensagemRetorno"/>
     </con:dependencies>
     <con:targetNamespace>http://pucminas.br/SN/Credito</con:targetNamespace>
 </con:schemaEntry>

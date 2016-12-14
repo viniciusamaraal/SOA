@@ -3,8 +3,8 @@
 
 declare namespace ns2 = "http://pucminas.br/SN/Credito";
 declare namespace ns1 = "http://creditlegacy.com.br/SN/CreditLegacy";
-declare namespace ns0 = "http://pucminas.br/MC/SOA/Vinicius";
-declare namespace xf = "http://tempuri.org/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta/";
+declare namespace ns0 = "http://pucminas.br/MC/SOA/Amaral";
+declare namespace xf = "http://tempuri.org/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta/";
 
 declare function xf:CreditLegacyRespostaToVerificaCreditoInternoResposta($resultadoCreditLegacy as element(ns1:ResultadoCreditLegacy))
     as element(ns2:resultadoVerificaCreditoInterno) {

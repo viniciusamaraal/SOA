@@ -2,10 +2,10 @@
 <xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:env="http://www.bea.com/wli/config/env" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://www.bea.com/wli/sb/pipeline/config" xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config" xmlns:con2="http://www.bea.com/wli/sb/stages/config" xmlns:con3="http://www.bea.com/wli/sb/stages/routing/config" xmlns:con4="http://www.bea.com/wli/sb/stages/logging/config">
   <ser:coreEntry isProxy="true" isEnabled="true">
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
-      <con:wsdl ref="OSB_Vinicius/ESB/Credito/wsdl/CreditoGeralService"/>
+      <con:wsdl ref="OSB_Amaral/ESB/Credito/wsdl/CreditoGeralService"/>
       <con:port>
         <con:name>CreditoGeralServiceSOAP</con:name>
-        <con:namespace>http://pucminas.br/SN/CreditoGeralService/Vinicius</con:namespace>
+        <con:namespace>http://pucminas.br/SN/CreditoGeralService/Amaral</con:namespace>
       </con:port>
       <con:selector type="SOAP body"/>
     </ser:binding>
@@ -63,7 +63,7 @@
             <con2:id>_ActionId-3865522565962078438-1a1a35eb.158f49aef13.-7db9</con2:id>
             <con1:expr>
               <con2:xqueryTransform>
-                <con2:resource ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro"/>
+                <con2:resource ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro"/>
                 <con2:param name="parametrosConsultaScore">
                   <con2:path>$body/cred:parametrosConsultaScore</con2:path>
                 </con2:param>
@@ -72,7 +72,7 @@
           </con1:assign>
           <con1:wsCallout>
             <con2:id>_ActionId-3865522565962078438-1a1a35eb.158f49aef13.-7e92</con2:id>
-            <con1:service xsi:type="ref:ProxyRef" ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+            <con1:service xsi:type="ref:ProxyRef" ref="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
             <con1:operation>verificaCreditoInterno</con1:operation>
             <con1:request>
               <con1:body wrapped="false">$varConsultaCreditoExternoParametro</con1:body>
@@ -111,7 +111,7 @@
             <con2:id>_ActionId-3865522565962078438-1a1a35eb.158f49aef13.-7add</con2:id>
             <con1:expr>
               <con2:xqueryTransform>
-                <con2:resource ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno"/>
+                <con2:resource ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno"/>
                 <con2:param name="parametrosConsultaScore">
                   <con2:path>$body/cred:parametrosConsultaScore</con2:path>
                 </con2:param>
@@ -120,7 +120,7 @@
           </con1:assign>
           <con1:wsCallout>
             <con2:id>_ActionId-3865522565962078438-1a1a35eb.158f49aef13.-7afa</con2:id>
-            <con1:service xsi:type="ref:ProxyRef" ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+            <con1:service xsi:type="ref:ProxyRef" ref="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
             <con1:operation>verificaCreditoInterno</con1:operation>
             <con1:request>
               <con1:body>$varConsultaCreditoInternoParametro</con1:body>
@@ -154,7 +154,7 @@
                 <con:actions>
                   <con3:route>
                     <con2:id>_ActionId-3865522565962078438-1a1a35eb.158f49aef13.-7ac6</con2:id>
-                    <con3:service ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaWhiteListService" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+                    <con3:service ref="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaWhiteListService" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
                     <con3:operation>verificaWhiteList</con3:operation>
                     <con3:outboundTransform>
                       <con1:replace varName="body" contents-only="true">
@@ -164,7 +164,7 @@
                         </con1:location>
                         <con1:expr>
                           <con2:xqueryTransform>
-                            <con2:resource ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro"/>
+                            <con2:resource ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro"/>
                             <con2:param name="parametrosConsultaScore">
                               <con2:path>$body/cred:parametrosConsultaScore</con2:path>
                             </con2:param>

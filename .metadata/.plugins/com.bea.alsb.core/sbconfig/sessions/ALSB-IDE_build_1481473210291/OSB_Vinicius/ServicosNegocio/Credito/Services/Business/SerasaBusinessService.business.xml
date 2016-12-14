@@ -2,7 +2,7 @@
 <xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:env="http://www.bea.com/wli/config/env">
   <ser:coreEntry isProxy="false" isEnabled="true">
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
-      <con:wsdl ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/SerasaService"/>
+      <con:wsdl ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/SerasaService"/>
       <con:port>
         <con:name>SerasaServiceSOAP</con:name>
         <con:namespace>http://cursosoa.org/SerasaService/</con:namespace>

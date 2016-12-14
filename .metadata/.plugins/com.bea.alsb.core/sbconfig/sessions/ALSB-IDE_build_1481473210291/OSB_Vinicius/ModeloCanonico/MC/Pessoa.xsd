@@ -3,8 +3,8 @@
     <con:schema><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <schema 
 	xmlns="http://www.w3.org/2001/XMLSchema" 
-	targetNamespace="http://pucminas.br/MC/SOA/Vinicius" 
-	xmlns:tns="http://pucminas.br/MC/SOA/Vinicius" 
+	targetNamespace="http://pucminas.br/MC/SOA/Amaral" 
+	xmlns:tns="http://pucminas.br/MC/SOA/Amaral" 
 	elementFormDefault="qualified">
 	
 	<complexType name="Pessoa">
@@ -18,5 +18,5 @@
 	</complexType>
 	
 </schema>]]></con:schema>
-    <con:targetNamespace>http://pucminas.br/MC/SOA/Vinicius</con:targetNamespace>
+    <con:targetNamespace>http://pucminas.br/MC/SOA/Amaral</con:targetNamespace>
 </con:schemaEntry>

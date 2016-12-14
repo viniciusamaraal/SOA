@@ -3,7 +3,7 @@
   <ser:coreEntry isProxy="true" isEnabled="true" isAutoPublish="false">
     <ser:description/>
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
-      <con:wsdl ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService"/>
+      <con:wsdl ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService"/>
       <con:port>
         <con:name>CreditLegacyServiceSOAP</con:name>
         <con:namespace>http://cursosoa.org/CreditLegacyService/</con:namespace>
@@ -39,7 +39,7 @@
         <con:actions>
           <con1:route xmlns:con1="http://www.bea.com/wli/sb/stages/routing/config">
             <conid1:id xmlns:conid1="http://www.bea.com/wli/sb/stages/config">_ActionId-6603520165145795579--47199dad.1584c0cae50.-7fd5</conid1:id>
-            <con1:service ref="OSB_Vinicius/ServicosNegocio/Credito/Services/Business/CreditLegacyBusinessService" xsi:type="ref:BusinessServiceRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+            <con1:service ref="OSB_Amaral/ServicosNegocio/Credito/Services/Business/CreditLegacyBusinessService" xsi:type="ref:BusinessServiceRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
             <con1:operation passThrough="true"/>
           </con1:route>
         </con:actions>

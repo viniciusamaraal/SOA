@@ -39,14 +39,14 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralServiceSecurity.proxy" partName="CreditoGeralServiceSecurity.proxy" path="/home/puc/workspace/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy" title="CreditoGeralServiceSecurity.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
+<editor id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralServiceSecurity.proxy" partName="CreditoGeralServiceSecurity.proxy" path="/home/puc/workspace/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy" title="CreditoGeralServiceSecurity.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
 </editor>
-<editor id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralService.proxy" partName="CreditoGeralService.proxy" path="/home/puc/workspace/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy" title="CreditoGeralService.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
+<editor id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralService.proxy" partName="CreditoGeralService.proxy" path="/home/puc/workspace/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy" title="CreditoGeralService.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
 </editor>
-<editor activePart="true" focus="true" id="com.bea.alsb.ui.editors.proxy" name="VerificaCreditoExternoService.proxy" partName="VerificaCreditoExternoService.proxy" path="/home/puc/workspace/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy" title="VerificaCreditoExternoService.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
+<editor activePart="true" focus="true" id="com.bea.alsb.ui.editors.proxy" name="VerificaCreditoExternoService.proxy" partName="VerificaCreditoExternoService.proxy" path="/home/puc/workspace/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy" title="VerificaCreditoExternoService.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
 </editor>
 </editors>
 <views>
@@ -97,16 +97,16 @@
 <filter element="*.pyo" isEnabled="true"/>
 </filters>
 <expanded>
-<element path="/OSB_Vinicius"/>
-<element path="/OSB_Vinicius/ServicosNegocio"/>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito"/>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito/Resources"/>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito/Services"/>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies"/>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations"/>
+<element path="/OSB_Amaral"/>
+<element path="/OSB_Amaral/ServicosNegocio"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito/Resources"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito/Services"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations"/>
 </expanded>
 <selection>
-<element path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService.proxy"/>
+<element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService.proxy"/>
 </selection>
 </viewState>
 </view>
@@ -464,32 +464,32 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaWhiteListService.proxy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Schemas/InternalWhiteList.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/InternalWhiteListService.wsdl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Vinicius/ModeloCanonico/MC/Credito.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ModeloCanonico/MC/Credito.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Vinicius/ModeloCanonico/MC/Pessoa.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ModeloCanonico/MC/Pessoa.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ModeloCanonico/MC/Credito.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito.xsd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCredito.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaWhiteListService.proxy"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Schemas/InternalWhiteList.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/InternalWhiteListService.wsdl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Amaral/ModeloCanonico/MC/Credito.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ModeloCanonico/MC/Credito.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Amaral/ModeloCanonico/MC/Pessoa.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ModeloCanonico/MC/Pessoa.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ModeloCanonico/MC/Credito.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCredito.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq"/>
 </editors>
 <item historyLabel="InternalWhiteListRespostaToVerificaWhiteListResposta.xq" index="2"/>
 <item historyLabel="InternalWhiteList.xsd" index="3">
@@ -594,50 +594,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="MontaCreditoGeralResposta.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="MontaCreditoGeralResposta.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/MontaCreditoGeralResposta.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaWhiteListParametro.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaWhiteListParametro.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaWhiteListParametro.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaCreditoInterno.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaCreditoInterno.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoInterno.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaCreditoExternoParametro.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditoGeralParametroToVerificaCreditoExternoParametro.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditoGeralParametroToVerificaCreditoExternoParametro.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="VerificaCreditoExternoService.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="VerificaCreditoExternoService.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoExternoService.proxy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralService.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralService.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralService.proxy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralServiceSecurity.proxy" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.ui.editors.proxy" name="CreditoGeralServiceSecurity.proxy" tooltip="OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/CreditoGeralServiceSecurity.proxy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="ParametrosCredito.xsd" tooltip="OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito.xsd">
-<persistable path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="ParametrosCredito.xsd" tooltip="OSB_Amaral/ESB/Credito/xsd/ParametrosCredito.xsd">
+<persistable path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCredito.xsd"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="ParametrosCreditoGeral.xsd" tooltip="OSB_Vinicius/ESB/Credito/xsd/ParametrosCreditoGeral.xsd">
-<persistable path="/OSB_Vinicius/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="ParametrosCreditoGeral.xsd" tooltip="OSB_Amaral/ESB/Credito/xsd/ParametrosCreditoGeral.xsd">
+<persistable path="/OSB_Amaral/ESB/Credito/xsd/ParametrosCreditoGeral.xsd"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="Credito.xsd" tooltip="OSB_Vinicius/ModeloCanonico/MC/Credito.xsd">
-<persistable path="/OSB_Vinicius/ModeloCanonico/MC/Credito.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="Credito.xsd" tooltip="OSB_Amaral/ModeloCanonico/MC/Credito.xsd">
+<persistable path="/OSB_Amaral/ModeloCanonico/MC/Credito.xsd"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="InternalWhiteListRespostaToVerificaWhiteListResposta.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="InternalWhiteListRespostaToVerificaWhiteListResposta.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/InternalWhiteListRespostaToVerificaWhiteListResposta.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="SerasaRespostaToVerificaCreditoExternoResposta.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="SerasaRespostaToVerificaCreditoExternoResposta.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/SerasaRespostaToVerificaCreditoExternoResposta.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditLegacyRespostaToVerificaCreditoInternoResposta.xq" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.bea.alsb.common.mapper.editors.MapperEditor" name="CreditLegacyRespostaToVerificaCreditoInternoResposta.xq" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/CreditLegacyRespostaToVerificaCreditoInternoResposta.xq"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="Pessoa.xsd" tooltip="OSB_Vinicius/ModeloCanonico/MC/Pessoa.xsd">
-<persistable path="/OSB_Vinicius/ModeloCanonico/MC/Pessoa.xsd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="Pessoa.xsd" tooltip="OSB_Amaral/ModeloCanonico/MC/Pessoa.xsd">
+<persistable path="/OSB_Amaral/ModeloCanonico/MC/Pessoa.xsd"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" name="CreditLegacyService.wsdl" tooltip="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl">
-<persistable path="/OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" name="CreditLegacyService.wsdl" tooltip="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl">
+<persistable path="/OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Contracts/CreditLegacyService.wsdl"/>
 </file>
 </mruList>
 </workbench>

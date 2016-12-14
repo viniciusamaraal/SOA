@@ -2,18 +2,18 @@
 <con:wsdlEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
     <con:wsdl><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-	xmlns:tns="http://pucminas.br/SN/CreditoService/Vinicius" 
+	xmlns:tns="http://pucminas.br/SN/CreditoService/Amaral" 
 	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
 	xmlns:cre="http://pucminas.br/SN/Credito"
-	xmlns:cab="http://pucminas.br/MC/SOA/Vinicius" 
+	xmlns:cab="http://pucminas.br/MC/SOA/Amaral" 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	name="CreditoService" 
-	targetNamespace="http://pucminas.br/SN/CreditoService/Vinicius">
+	targetNamespace="http://pucminas.br/SN/CreditoService/Amaral">
 
 	<wsdl:types>
-		<xsd:schema targetNamespace="http://pucminas.br/SN/CreditoService/Vinicius">
+		<xsd:schema targetNamespace="http://pucminas.br/SN/CreditoService/Amaral">
 			<xsd:import namespace="http://pucminas.br/SN/Credito" schemaLocation="../xsd/ParametrosCredito.xsd" />
-			<xsd:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" />
+			<xsd:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" />
 		</xsd:schema>
 	</wsdl:types>
 
@@ -111,8 +111,8 @@
 	</wsdl:service>
 </wsdl:definitions>]]></con:wsdl>
     <con:dependencies>
-        <con:schemaRef isInclude="false" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" namespace="http://pucminas.br/MC/SOA/Vinicius" ref="OSB_Vinicius/ModeloCanonico/MC/PucminasFault"/>
-        <con:schemaRef isInclude="false" schemaLocation="../xsd/ParametrosCredito.xsd" namespace="http://pucminas.br/SN/Credito" ref="OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito"/>
+        <con:schemaRef isInclude="false" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" namespace="http://pucminas.br/MC/SOA/Amaral" ref="OSB_Amaral/ModeloCanonico/MC/PucminasFault"/>
+        <con:schemaRef isInclude="false" schemaLocation="../xsd/ParametrosCredito.xsd" namespace="http://pucminas.br/SN/Credito" ref="OSB_Amaral/ESB/Credito/xsd/ParametrosCredito"/>
     </con:dependencies>
-    <con:targetNamespace>http://pucminas.br/SN/CreditoService/Vinicius</con:targetNamespace>
+    <con:targetNamespace>http://pucminas.br/SN/CreditoService/Amaral</con:targetNamespace>
 </con:wsdlEntry>

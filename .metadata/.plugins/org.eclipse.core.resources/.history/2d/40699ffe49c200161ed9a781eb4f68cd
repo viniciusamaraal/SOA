@@ -2,10 +2,10 @@
 <xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:env="http://www.bea.com/wli/config/env" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://www.bea.com/wli/sb/pipeline/config" xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config" xmlns:con2="http://www.bea.com/wli/sb/stages/config">
   <ser:coreEntry isProxy="true" isEnabled="true">
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
-      <con:wsdl ref="OSB_Vinicius/ESB/Pessoa/wsdl/PessoaService"/>
+      <con:wsdl ref="OSB_Amaral/ESB/Pessoa/wsdl/PessoaService"/>
       <con:port>
         <con:name>PessoaServiceSOAP</con:name>
-        <con:namespace>http://pucminas.br/SN/PessoaService/Vinicius</con:namespace>
+        <con:namespace>http://pucminas.br/SN/PessoaService/Amaral</con:namespace>
       </con:port>
       <con:selector type="SOAP body"/>
     </ser:binding>
@@ -55,7 +55,7 @@
         <con:actions>
           <con1:validate>
             <con2:id>_ActionId-7400317042251854516-32275f41.158f599ffd3.-7943</con2:id>
-            <con1:schema ref="OSB_Vinicius/ESB/Pessoa/xsd/ParametrosPessoa"/>
+            <con1:schema ref="OSB_Amaral/ESB/Pessoa/xsd/ParametrosPessoa"/>
             <con1:schemaElement xmlns:pes="http://pucminas.br/SN/Pessoa">pes:parametrosCadastraPessoa</con1:schemaElement>
             <con1:varName>body</con1:varName>
             <con1:location>

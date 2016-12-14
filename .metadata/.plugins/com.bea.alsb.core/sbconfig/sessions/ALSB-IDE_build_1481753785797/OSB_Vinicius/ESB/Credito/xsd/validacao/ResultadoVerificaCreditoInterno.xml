@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:xmlEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
     <con:xml-content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<tns:resultadoVerificaCreditoInterno xmlns:tns="http://pucminas.br/SN/Credito" xmlns:tns1="http://pucminas.br/MC/SOA/Vinicius" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pucminas.br/SN/Credito ParametrosCredito.xsd ">
+<tns:resultadoVerificaCreditoInterno xmlns:tns="http://pucminas.br/SN/Credito" xmlns:tns1="http://pucminas.br/MC/SOA/Amaral" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pucminas.br/SN/Credito ParametrosCredito.xsd ">
   <tns:credito>
     <tns1:pessoa>
       <tns1:id>0</tns1:id>

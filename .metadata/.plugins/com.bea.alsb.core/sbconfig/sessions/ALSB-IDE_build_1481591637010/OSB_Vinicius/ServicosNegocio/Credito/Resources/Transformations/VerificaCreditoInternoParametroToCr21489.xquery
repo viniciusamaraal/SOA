@@ -5,8 +5,8 @@
 
 declare namespace ns2 = "http://pucminas.br/SN/Credito";
 declare namespace ns1 = "http://creditlegacy.com.br/SN/CreditLegacy";
-declare namespace ns0 = "http://pucminas.br/MC/SOA/Vinicius";
-declare namespace xf = "http://tempuri.org/OSB_Vinicius/ServicosNegocio/Credito/Resources/Transformations/VerificaCreditoInternoToCreditLegacy/";
+declare namespace ns0 = "http://pucminas.br/MC/SOA/Amaral";
+declare namespace xf = "http://tempuri.org/OSB_Amaral/ServicosNegocio/Credito/Resources/Transformations/VerificaCreditoInternoToCreditLegacy/";
 
 declare function xf:VerificaCreditoInternoToCreditLegacy($parametrosVerificaCreditoInterno1 as element(ns2:parametrosVerificaCreditoInterno))
     as element(ns1:ParametrosCreditLegacy) {
@@ -20,9 +20,9 @@ declare variable $parametrosVerificaCreditoInterno1 as element(ns2:parametrosVer
 
 xf:VerificaCreditoInternoToCreditLegacy($parametrosVerificaCreditoInterno1)]]></con:xquery>
     <con:dependency location="../../../../ESB/Credito/xsd/ParametrosCredito.xsd">
-        <con:schema ref="OSB_Vinicius/ESB/Credito/xsd/ParametrosCredito"/>
+        <con:schema ref="OSB_Amaral/ESB/Credito/xsd/ParametrosCredito"/>
     </con:dependency>
     <con:dependency location="../Interfaces/Schemas/CreditLegacy.xsd">
-        <con:schema ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Schemas/CreditLegacy"/>
+        <con:schema ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Schemas/CreditLegacy"/>
     </con:dependency>
 </con:xqueryEntry>

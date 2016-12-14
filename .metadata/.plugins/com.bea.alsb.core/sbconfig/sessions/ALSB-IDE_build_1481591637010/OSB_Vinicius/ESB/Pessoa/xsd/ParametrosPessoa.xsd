@@ -4,10 +4,10 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
 	targetNamespace="http://pucminas.br/SN/Pessoa" 
 	xmlns:tns="http://pucminas.br/SN/Pessoa" 
-	xmlns:cab="http://pucminas.br/MC/SOA/Vinicius"
+	xmlns:cab="http://pucminas.br/MC/SOA/Amaral"
 	elementFormDefault="qualified">
 
-	<import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" />
+	<import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" />
 
 
 	<element name="parametrosBuscaPessoa">
@@ -52,7 +52,7 @@
 
 </schema>]]></con:schema>
     <con:dependencies>
-        <con:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" ref="OSB_Vinicius/ModeloCanonico/MC/Pessoa"/>
+        <con:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/Pessoa.xsd" ref="OSB_Amaral/ModeloCanonico/MC/Pessoa"/>
     </con:dependencies>
     <con:targetNamespace>http://pucminas.br/SN/Pessoa</con:targetNamespace>
 </con:schemaEntry>

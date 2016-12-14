@@ -49,7 +49,7 @@
 
 </wsdl:definitions>]]></con:wsdl>
     <con:dependencies>
-        <con:schemaRef isInclude="false" schemaLocation="../Schemas/InternalWhiteList.xsd" namespace="http://whitelist.com.br/SN/WhiteList" ref="OSB_Vinicius/ServicosNegocio/Credito/Resources/Interfaces/Schemas/InternalWhiteList"/>
+        <con:schemaRef isInclude="false" schemaLocation="../Schemas/InternalWhiteList.xsd" namespace="http://whitelist.com.br/SN/WhiteList" ref="OSB_Amaral/ServicosNegocio/Credito/Resources/Interfaces/Schemas/InternalWhiteList"/>
     </con:dependencies>
     <con:targetNamespace>http://cursosoa.org/InternalWhiteListService/</con:targetNamespace>
 </con:wsdlEntry>

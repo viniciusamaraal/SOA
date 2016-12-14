@@ -2,18 +2,18 @@
 <con:wsdlEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
     <con:wsdl><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-	xmlns:tns="http://pucminas.br/SN/PessoaService/Vinicius" 
+	xmlns:tns="http://pucminas.br/SN/PessoaService/Amaral" 
 	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
 	xmlns:pes="http://pucminas.br/SN/Pessoa"
-	xmlns:cab="http://pucminas.br/MC/SOA/Vinicius" 
+	xmlns:cab="http://pucminas.br/MC/SOA/Amaral" 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	name="PessoaService" 
-	targetNamespace="http://pucminas.br/SN/PessoaService/Vinicius">
+	targetNamespace="http://pucminas.br/SN/PessoaService/Amaral">
 
 	<wsdl:types>
-		<xsd:schema targetNamespace="http://pucminas.br/SN/PessoaService/Vinicius">
+		<xsd:schema targetNamespace="http://pucminas.br/SN/PessoaService/Amaral">
 			<xsd:import namespace="http://pucminas.br/SN/Pessoa" schemaLocation="../xsd/ParametrosPessoa.xsd" />
-			<xsd:import namespace="http://pucminas.br/MC/SOA/Vinicius" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" />
+			<xsd:import namespace="http://pucminas.br/MC/SOA/Amaral" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" />
 			<xsd:element name="pucminasFault" type="cab:PucminasFault" />
 		</xsd:schema>
 	</wsdl:types>
@@ -104,8 +104,8 @@
 	</wsdl:service>
 </wsdl:definitions>]]></con:wsdl>
     <con:dependencies>
-        <con:schemaRef isInclude="false" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" namespace="http://pucminas.br/MC/SOA/Vinicius" ref="OSB_Vinicius/ModeloCanonico/MC/PucminasFault"/>
-        <con:schemaRef isInclude="false" schemaLocation="../xsd/ParametrosPessoa.xsd" namespace="http://pucminas.br/SN/Pessoa" ref="OSB_Vinicius/ESB/Pessoa/xsd/ParametrosPessoa"/>
+        <con:schemaRef isInclude="false" schemaLocation="../../../ModeloCanonico/MC/PucminasFault.xsd" namespace="http://pucminas.br/MC/SOA/Amaral" ref="OSB_Amaral/ModeloCanonico/MC/PucminasFault"/>
+        <con:schemaRef isInclude="false" schemaLocation="../xsd/ParametrosPessoa.xsd" namespace="http://pucminas.br/SN/Pessoa" ref="OSB_Amaral/ESB/Pessoa/xsd/ParametrosPessoa"/>
     </con:dependencies>
-    <con:targetNamespace>http://pucminas.br/SN/PessoaService/Vinicius</con:targetNamespace>
+    <con:targetNamespace>http://pucminas.br/SN/PessoaService/Amaral</con:targetNamespace>
 </con:wsdlEntry>

@@ -2,10 +2,10 @@
 <xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:env="http://www.bea.com/wli/config/env" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://www.bea.com/wli/sb/pipeline/config" xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config" xmlns:con2="http://www.bea.com/wli/sb/stages/config" xmlns:con3="http://www.bea.com/wli/sb/stages/routing/config">
   <ser:coreEntry isProxy="true" isEnabled="true">
     <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
-      <con:wsdl ref="OSB_Vinicius/ESB/Pessoa/wsdl/PessoaService"/>
+      <con:wsdl ref="OSB_Amaral/ESB/Pessoa/wsdl/PessoaService"/>
       <con:port>
         <con:name>PessoaServiceSOAP</con:name>
-        <con:namespace>http://pucminas.br/SN/PessoaService/Vinicius</con:namespace>
+        <con:namespace>http://pucminas.br/SN/PessoaService/Amaral</con:namespace>
       </con:port>
       <con:selector type="SOAP body"/>
     </ser:binding>
@@ -66,7 +66,7 @@
                 <con:actions>
                   <con3:route>
                     <con2:id>_ActionId-5055231176512154232--30de4ef4.158ff6875ec.-7f70</con2:id>
-                    <con3:service ref="OSB_Vinicius/ServicosNegocio/Pessoa/Services/Proxies/Operations/BuscaPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+                    <con3:service ref="OSB_Amaral/ServicosNegocio/Pessoa/Services/Proxies/Operations/BuscaPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
                     <con3:operation>buscaPessoa</con3:operation>
                     <con3:outboundTransform/>
                     <con3:responseTransform/>
@@ -84,7 +84,7 @@
                 <con:actions>
                   <con3:route>
                     <con2:id>_ActionId-5055231176512154232--30de4ef4.158ff6875ec.-7ecb</con2:id>
-                    <con3:service ref="OSB_Vinicius/ServicosNegocio/Pessoa/Services/Proxies/Operations/CadastraPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+                    <con3:service ref="OSB_Amaral/ServicosNegocio/Pessoa/Services/Proxies/Operations/CadastraPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
                     <con3:operation>cadastraPessoa</con3:operation>
                     <con3:outboundTransform/>
                     <con3:responseTransform/>
@@ -102,7 +102,7 @@
                 <con:actions>
                   <con3:route>
                     <con2:id>_ActionId-5055231176512154232--30de4ef4.158ff6875ec.-7e93</con2:id>
-                    <con3:service ref="OSB_Vinicius/ServicosNegocio/Pessoa/Services/Proxies/Operations/DesativaPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+                    <con3:service ref="OSB_Amaral/ServicosNegocio/Pessoa/Services/Proxies/Operations/DesativaPessoaProxy" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
                     <con3:operation>desativaPessoa</con3:operation>
                     <con3:outboundTransform/>
                     <con3:responseTransform/>
