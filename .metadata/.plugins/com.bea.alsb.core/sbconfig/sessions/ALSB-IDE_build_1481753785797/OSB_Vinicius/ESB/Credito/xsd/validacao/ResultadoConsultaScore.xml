@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:xmlEntry xmlns:con="http://www.bea.com/wli/sb/resources/config">
+    <con:xml-content>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;tns:resultadoConsultaScore xmlns:tns="http://pucminas.br/SN/CreditoGeral" xmlns:tns1="http://pucminas.br/MC/SOA/Vinicius" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pucminas.br/SN/CreditoGeral ParametrosCreditoGeral.xsd ">
+  &lt;tns:score>0&lt;/tns:score>
+&lt;/tns:resultadoConsultaScore></con:xml-content>
+</con:xmlEntry>

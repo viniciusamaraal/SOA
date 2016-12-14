@@ -40,7 +40,7 @@
         <con:actions>
           <con1:Error>
             <con2:id>_ActionId-6603520165145795579--47199dad.1584c0cae50.-7f31</con2:id>
-            <con1:errCode>0012</con1:errCode>
+            <con1:errCode>001</con1:errCode>
             <con1:message>Operaçao inexistente.</con1:message>
           </con1:Error>
         </con:actions>
