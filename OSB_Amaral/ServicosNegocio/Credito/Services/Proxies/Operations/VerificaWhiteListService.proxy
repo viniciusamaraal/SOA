@@ -47,6 +47,25 @@
       </con:stage>
     </con:pipeline>
     <con:pipeline type="response" name="PipelinePairOperacaoInexistente_response"/>
+    <con:pipeline type="request" name="PipelinePairVerificaWhiteList_request">
+      <con:stage name="stageValidacao">
+        <con:context>
+          <con2:varNsDecl namespace="http://pucminas.br/SN/Credito" prefix="cred"/>
+        </con:context>
+        <con:actions>
+          <con1:validate>
+            <con2:id>_ActionId-8433403218602170875-57e364a1.158ff955133.-7f64</con2:id>
+            <con1:schema ref="OSB_Amaral/ESB/Credito/xsd/ParametrosCredito"/>
+            <con1:schemaElement xmlns:cred="http://pucminas.br/SN/Credito">cred:parametrosVerificaWhiteList</con1:schemaElement>
+            <con1:varName>body</con1:varName>
+            <con1:location>
+              <con2:xpathText>./cred:parametrosVerificaWhiteList</con2:xpathText>
+            </con1:location>
+          </con1:validate>
+        </con:actions>
+      </con:stage>
+    </con:pipeline>
+    <con:pipeline type="response" name="PipelinePairVerificaWhiteList_response"/>
     <con:flow>
       <con:branch-node type="operation" name="BranchNodeVerificaWhiteList">
         <con:context/>
@@ -55,6 +74,10 @@
             <con:operator>equals</con:operator>
             <con:value/>
             <con:flow>
+              <con:pipeline-node name="PipelinePairVerificaWhiteList">
+                <con:request>PipelinePairVerificaWhiteList_request</con:request>
+                <con:response>PipelinePairVerificaWhiteList_response</con:response>
+              </con:pipeline-node>
               <con:route-node name="RouteToInternalWhiteListService">
                 <con:context>
                   <con2:userNsDecl namespace="http://whitelist.com.br/SN/WhiteList" prefix="cab"/>
