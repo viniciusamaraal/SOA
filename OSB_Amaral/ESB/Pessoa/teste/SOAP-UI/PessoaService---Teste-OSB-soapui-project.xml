@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="1e6c1551-a09e-49ff-9c6a-8363bdff8a19" activeEnvironment="Default" name="PessoaService - Teste OSB" resourceRoot="" soapui-version="5.2.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="08571d63-d4a2-42d2-80bc-b251f9e733b7" wsaVersion="NONE" name="PessoaServiceSOAP" type="wsdl" bindingName="{http://pucminas.br/SN/PessoaService/Amaral}PessoaServiceSOAP" soapVersion="1_1" anonymous="optional" definition="file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl"><con:part><con:url>file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="PessoaService" targetNamespace="http://pucminas.br/SN/PessoaService/Amaral" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://pucminas.br/SN/PessoaService/Amaral" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:pes="http://pucminas.br/SN/Pessoa" xmlns:cab="http://pucminas.br/MC/SOA/Amaral" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<con:soapui-project id="1e6c1551-a09e-49ff-9c6a-8363bdff8a19" activeEnvironment="Default" name="PessoaService - Teste OSB" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="08571d63-d4a2-42d2-80bc-b251f9e733b7" wsaVersion="NONE" name="PessoaServiceSOAP" type="wsdl" bindingName="{http://pucminas.br/SN/PessoaService/Amaral}PessoaServiceSOAP" soapVersion="1_1" anonymous="optional" definition="file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl"><con:part><con:url>file:/home/puc/workspace/OSB_Amaral/ESB/Pessoa/wsdl/PessoaService.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="PessoaService" targetNamespace="http://pucminas.br/SN/PessoaService/Amaral" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://pucminas.br/SN/PessoaService/Amaral" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:pes="http://pucminas.br/SN/Pessoa" xmlns:cab="http://pucminas.br/MC/SOA/Amaral" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <wsdl:types>
     <xsd:schema targetNamespace="http://pucminas.br/SN/PessoaService/Amaral">
       <xsd:import namespace="http://pucminas.br/SN/Pessoa" schemaLocation="../xsd/ParametrosPessoa.xsd"/>
@@ -149,32 +149,18 @@
          </pes:pessoa>
       </pes:parametrosBuscaPessoa>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://pucminas.br/SN/PessoaService/BuscaPessoa"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="1a740b23-57e4-40ed-82c2-2cac0af7e500" isOneWay="false" action="http://pucminas.br/SN/PessoaService/CadastraPessoa" name="cadastraPessoa" bindingOperationName="cadastraPessoa" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6d34934d-e158-4203-a9dc-ccf04c3a73a5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://pucminas.br/SOA/Pessoa</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pes="http://pucminas.br/SN/Pessoa" xmlns:amar="http://pucminas.br/MC/SOA/Amaral">
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://pucminas.br/SN/PessoaService/BuscaPessoa"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="1a740b23-57e4-40ed-82c2-2cac0af7e500" isOneWay="false" action="http://pucminas.br/SN/PessoaService/CadastraPessoa" name="cadastraPessoa" bindingOperationName="cadastraPessoa" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6d34934d-e158-4203-a9dc-ccf04c3a73a5" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:7001/ServicosNegocio/Pessoa/PessoaSecurity</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pes="http://pucminas.br/SN/Pessoa" xmlns:amar="http://pucminas.br/MC/SOA/Amaral">
    <soapenv:Header/>
    <soapenv:Body>
       <pes:parametrosCadastraPessoa>
          <pes:pessoa>
-            <amar:id>?</amar:id>
-            <amar:nome>?</amar:nome>
-            <amar:dataNascimento>?</amar:dataNascimento>
-            <amar:cpf>?</amar:cpf>
-            <amar:telefone>?</amar:telefone>
-            <amar:celular>?</amar:celular>
+            <amar:id>1</amar:id>
+            <amar:nome>Jose</amar:nome>
+            <amar:dataNascimento>1992-08-12</amar:dataNascimento>
+            <amar:cpf>983.457.346-12</amar:cpf>
+            <amar:telefone>3139089854</amar:telefone>
+            <amar:celular>31989894585</amar:celular>
          </pes:pessoa>
       </pes:parametrosCadastraPessoa>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://pucminas.br/SN/PessoaService/CadastraPessoa"/></con:call></con:operation><con:operation id="dcd6ae85-d17a-42b3-8339-286d5f6f17d8" isOneWay="false" action="http://pucminas.br/SN/PessoaService/DesativaPessoa" name="desativaPessoa" bindingOperationName="desativaPessoa" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="693fcaa5-797d-409d-8b03-ff7408c5d2e9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://pucminas.br/SOA/Pessoa</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pes="http://pucminas.br/SN/Pessoa" xmlns:amar="http://pucminas.br/MC/SOA/Amaral">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <pes:parametrosDesativaPessoa>
-         <pes:pessoa>
-            <amar:id>?</amar:id>
-            <amar:nome>?</amar:nome>
-            <amar:dataNascimento>?</amar:dataNascimento>
-            <amar:cpf>?</amar:cpf>
-            <amar:telefone>?</amar:telefone>
-            <amar:celular>?</amar:celular>
-         </pes:pessoa>
-      </pes:parametrosDesativaPessoa>
-   </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://pucminas.br/SN/PessoaService/DesativaPessoa"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://pucminas.br/SN/PessoaService/CadastraPessoa"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="dcd6ae85-d17a-42b3-8339-286d5f6f17d8" isOneWay="false" action="http://pucminas.br/SN/PessoaService/DesativaPessoa" name="desativaPessoa" bindingOperationName="desativaPessoa" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>
