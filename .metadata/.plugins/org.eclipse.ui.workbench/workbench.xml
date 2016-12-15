@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="77" version="2.0">
+<workbench progressCount="46" version="2.0">
 <workbenchAdvisor/>
 <window height="625" maximized="true" width="640" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -14,7 +14,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
 <coolItem id="org.eclipse.wst.server.ui.new.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -89,15 +89,13 @@
 </view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
-<filters>
-<filter element="*.class" isEnabled="true"/>
+<filters>&#x0A;<filter element="*.class" isEnabled="true"/>
 <filter element=".*" isEnabled="false"/>
 <filter element="*.pyc" isEnabled="true"/>
 <filter element="*.class" isEnabled="true"/>
 <filter element="*.pyo" isEnabled="true"/>
 </filters>
-<expanded>
-<element path="/OSB_Amaral"/>
+<expanded>&#x0A;<element path="/OSB_Amaral"/>
 <element path="/OSB_Amaral/ServicosNegocio"/>
 <element path="/OSB_Amaral/ServicosNegocio/Credito"/>
 <element path="/OSB_Amaral/ServicosNegocio/Credito/Resources"/>
@@ -105,17 +103,12 @@
 <element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies"/>
 <element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations"/>
 </expanded>
-<selection>
-<element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService.proxy"/>
+<selection>&#x0A;<element path="/OSB_Amaral/ServicosNegocio/Credito/Services/Proxies/Operations/VerificaCreditoInternoService.proxy"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (35 items)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="386" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="816"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -132,7 +125,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="com.bea.alsb.ui.editors.proxy" activePerspective="com.bea.alsb.ui.perspectives.aqualogic">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.bea.alsb.ui.perspectives.aqualogic">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.help.internal.ui.HelpActionSet"/>
@@ -186,53 +179,40 @@
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="com.bea.alsb.common.mapper.views.TargetExpression"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="com.bea.alsb.common.mapper.views.DataPalette" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="com.bea.alsb.common.mapper.views.DataPalette" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="com.bea.alsb.common.mapper.views.DataPalette" label="Expression Variables"/>
 <page content="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" label="Expression Functions"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6a26cb53" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6a26cb53" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.gef.ui.palette_view" ratio="0.25361863" ratioLeft="403" ratioRight="1186" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.81528664" ratioLeft="512" ratioRight="116" relationship="4" relative="org.eclipse.gef.ui.palette_view">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.81528664" ratioLeft="512" ratioRight="116" relationship="4" relative="org.eclipse.gef.ui.palette_view">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="com.bea.alsb.common.mapper.views.TargetExpression" label="Target Expression"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.1590909" ratioLeft="119" ratioRight="629" relationship="2" relative="org.eclipse.gef.ui.palette_view"/>
-<info folder="true" part="bottomLeft" ratio="0.77707005" ratioLeft="488" ratioRight="140" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.77707005" ratioLeft="488" ratioRight="140" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -295,14 +275,10 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="com.bea.workshop.common.ui.CorePaletteView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.bea.alsb.common.mapper.views.DataPalette"/>
+<view id="com.bea.alsb.common.xquery.ui.views.FunctionsPalette"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="0">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.29986876"/>
-<view id="com.bea.alsb.common.mapper.views.DataPalette" ratio="0.3"/>
-<view id="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="com.bea.alsb.ui.views.ReferenceView" ratio="0.29952458"/>
@@ -316,11 +292,15 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<page content="com.bea.alsb.common.mapper.views.DataPalette" label="LabelNotFound"/>
-<page content="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.bea.alsb.common.mapper.views.DataPalette" label="Expression Variables"/>
+<page content="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" label="Expression Functions"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
@@ -332,7 +312,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.312146" ratioLeft="496" ratioRight="1093" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7420382" ratioLeft="466" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="com.bea.alsb.ui.views.ReferenceView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -401,59 +381,40 @@
 <view id="com.bea.alsb.common.mapper.views.ConstraintsView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="middleLeft" orientation="256" selectedTabId="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" style="0">
-<fastViews>
-<view id="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="16384" id="middleLeft" orientation="256" selectedTabId="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" style="0">&#x0A;<fastViews>&#x0A;<view id="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="com.bea.alsb.common.mapper.views.DataPalette" style="0">
-<fastViews>
-<view id="com.bea.alsb.common.mapper.views.DataPalette" ratio="0.3"/>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="com.bea.alsb.common.mapper.views.DataPalette" style="0">&#x0A;<fastViews>&#x0A;<view id="com.bea.alsb.common.mapper.views.DataPalette" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1194" ratioRight="398" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1194" ratioRight="398" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19974874" ratioLeft="318" ratioRight="1274" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomFrame" ratio="0.6085578" ratioLeft="384" ratioRight="247" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.bea.alsb.common.mapper.views.TargetExpression" appearance="2" expanded="2">
-<page content="com.bea.alsb.common.mapper.views.TargetExpression" label="Target Expression"/>
+<info folder="true" part="bottomFrame" ratio="0.6085578" ratioLeft="384" ratioRight="247" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.bea.alsb.common.mapper.views.TargetExpression" appearance="2" expanded="2">&#x0A;<page content="com.bea.alsb.common.mapper.views.TargetExpression" label="Target Expression"/>
 <page content="com.bea.alsb.common.mapper.views.ConstraintsView" label="Constraints"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="middleLeft" ratio="0.3296355" ratioLeft="208" ratioRight="423" relationship="4" relative="topLeft">
-<folder appearance="2" expanded="0">
-<page content="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" label="LabelNotFound"/>
+<info folder="true" part="middleLeft" ratio="0.3296355" ratioLeft="208" ratioRight="423" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.bea.alsb.common.xquery.ui.views.FunctionsPalette" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.49881798" ratioLeft="211" ratioRight="212" relationship="4" relative="middleLeft">
-<folder appearance="2" expanded="0">
-<page content="com.bea.alsb.common.mapper.views.DataPalette" label="LabelNotFound"/>
+<info folder="true" part="bottomLeft" ratio="0.49881798" ratioLeft="211" ratioRight="212" relationship="4" relative="middleLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.bea.alsb.common.mapper.views.DataPalette" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -574,13 +535,10 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="middleLeft"/>
-<trimItem IMemento.internal.id="bottomLeft"/>
 <trimItem IMemento.internal.id="topLeft"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="topRight"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
